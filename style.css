@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Dank Mono';
+  background: #272838;
+}
+
+
+ .container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.container h1{
+  font-size: 50px;
+  padding: 15px 0;
+  position: relative;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #dfdfdf;
+}
+
+.time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.time div {
+  position: relative;
+  margin: 0 5px;
+}
+
+
+.time div span{
+ position: relative;
+ display: block;
+ width: 100px;
+ height: 80px;
+ background: #5D536B;
+ font-size: 2em;
+ font-weight: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #dfdfdf;
+}
+.time div span:nth-child(2){
+  height: 30px;
+  font-size: 0.8em;
+  letter-spacing: 0.3em;
+  font-weight: 500px;
+  box-shadow: none;
+  border-top: 1px solid white;
+}
+
+.time div:nth-child(3) span{
+  background: #989FCE;
+}
+
+.time div:nth-child(2) span{
+  background: #7D6B91;
+}
+
+.time div:nth-child(4) span{
+  background: none;
+  right: 0;
+  top: 0;
+  
+}
+
+
+.date-pm-or-am{
+  margin: 0;
+  padding: 0;
+}
